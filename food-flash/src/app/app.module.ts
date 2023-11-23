@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavModule } from './nav/nav.module';
 import { RestaurantsComponent } from './restaurants/components/restaurants.component';
 import { RestaurantsModule } from './restaurants/restaurants.module';
+import { FoodPageModule } from './food-page/food-page.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { RestaurantsModule } from './restaurants/restaurants.module';
     BrowserModule,
     AppRoutingModule,
     NavModule,
-    RestaurantsModule
+    RestaurantsModule,
+    FoodPageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
